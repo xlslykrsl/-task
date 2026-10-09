@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8EDFC"/>
+      <stop offset="1" stop-color="#D3DDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- カレンダー -->
+  <rect x="146" y="214" width="220" height="176" rx="36" fill="#5672E0"/>
+  <path d="M220 312 l28 28 l52 -56" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 角帽 -->
+  <path d="M190 178 v34 q66 34 132 0 v-34 z" fill="#14205C"/>
+  <path d="M256 112 L378 164 L256 216 L134 164 Z" fill="#14205C" stroke="#14205C" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M256 164 L350 190 V236" fill="none" stroke="#F5B82E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="341" y="230" width="18" height="30" rx="7" fill="#F5B82E"/>
+  <circle cx="256" cy="164" r="10" fill="#F5B82E"/>
+</svg>
