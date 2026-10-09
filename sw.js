@@ -1,5 +1,5 @@
 /* オフラインでも開けるようにする。index.html などを更新したら VERSION を上げる */
-const VERSION="v1";
+const VERSION="v3";
 const CACHE="daigaku-tasks-"+VERSION;
 const CORE=["./","index.html","manifest.webmanifest","icon.svg","icon-192.png","icon-512.png","apple-touch-icon.png","favicon-32.png"];
 self.addEventListener("install",e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()))});
